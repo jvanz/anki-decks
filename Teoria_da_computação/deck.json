@@ -1,0 +1,246 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "5b06b47c-4009-11eb-9a2c-c8f750d50411",
+    "deck_config_uuid": "5b06b620-4009-11eb-9a2c-c8f750d50411",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "5b06b620-4009-11eb-9a2c-c8f750d50411",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "latex-12de45c81c6fb3647b9c2b977be902dfe9237b34.png",
+        "latex-2b4935094823ccd24b714364431f3760121e1f37.png",
+        "latex-410914db51eef9d55f9f4eedb098c4cfaf22d132.png",
+        "latex-9866e3a998d628ba0941eb4fea0666ac391d149a.png",
+        "latex-ac4fc00944fbe646818171afdc933f5a6fddb278.png",
+        "latex-ad2bac652ed768f65b0ded92233da4a7d7da7fcd.png",
+        "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png",
+        "latex-dc4c6ca43eec94b1634459e34c2c61f1f2a40966.png",
+        "latex-fdd71e396fdbde24b2300ba85bd4da6f8f070251.png"
+    ],
+    "name": "Teoria da computação",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "automatos"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é teoria da complexidade?",
+                "Classifica os problemas em fáceis e difíceis"
+            ],
+            "flags": 0,
+            "guid": "g@X-P6j~tn",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é Teoria da computabilidade?",
+                "Classifica os problemas em solucionáveis ou não-solucionáveis"
+            ],
+            "flags": 0,
+            "guid": "h;~[}VPhjz",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é Teoria de Autômatos?",
+                "Descreve definições e propriedades de modelos matemáticos de computação"
+            ],
+            "flags": 0,
+            "guid": "eP/S=7+gbA",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um alfabeto?",
+                "É um conjunto finito e simbolos.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "DaB6BWLo[S",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma string para um alfabeto&nbsp;[$]\\sum[/$]?",
+                "Uma string é uma sequencia de simbolos pertencentes ao alfabeto [$]\\sum[/$]. O comprimento da string é dado pelo número de simbolos na sequencia.&nbsp;<div><br></div><div>Exemplo:</div><div>Dado o alfabeto&nbsp;[$]{0,1}[/$]. Algumas strings possíveis são: 10, 0101, 0000, 1000, 1, 0, 101. Com seus respectivos tamanhos: 2, 4, 4, 4, 1, 1, 3.</div>"
+            ],
+            "flags": 0,
+            "guid": "c/D6_{IPor",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um autômatos finitos(AF)? Descreva sem utilizar a definição matemática",
+                "São modelos computacionais com quantidade extramente limitada de memória que são capazes de reconhecer classes de linguagens regulares."
+            ],
+            "flags": 0,
+            "guid": "khqMphcPIV",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Autômatos Finitos(AF) possuem memória auxiliar (contador, pilha, etc)?",
+                "Não, não possuem."
+            ],
+            "flags": 0,
+            "guid": "L&{[X/DUQ&",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quais são os tipos de autômatos finitos?",
+                "Autômato Finitos Deterministicos (AFD)<div>Autômato Finitos Não-determinísticos (AFND)</div>"
+            ],
+            "flags": 0,
+            "guid": "Jdo#3D}p%.",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Não definição matemática de Autômatos Finitos Determinísticos(AFD),&nbsp;<div>[$$] AFD= (Q, \\Sigma, \\delta,q0, F)[/$$]<br></div><div>Defina&nbsp; cada elemento da tupla.</div>",
+                "[$]Q[/$] é o conjunto finito de estados<div>--------------------------------------------------------------<br>[$]\\Sigma[/$] é o conjunto finito de símbolos</div><div>--------------------------------------------------------------<br><div>[$]\\delta : Q X \\Sigma \\rightarrow Q [/$] é uma função de transição. [$]\\delta&nbsp; (\\text{estado atual, símbolo lido})&nbsp; \\rightarrow \\text{novo estado} [/$]&nbsp; &nbsp;&nbsp;</div><div>--------------------------------------------------------------<br></div><div><div>[$]q0 \\in Q[/$] é o estado inicial</div><div>--------------------------------------------------------------<br></div><div>[$]F \\subseteq Q[/$] é o conjunto de estados finais</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "RjIFa6is3r",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        }
+    ]
+}
