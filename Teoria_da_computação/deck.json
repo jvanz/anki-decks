@@ -55,15 +55,33 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
+        "latex-0104772376bad05b599a33403a2c1c8143734c9c.png",
         "latex-12de45c81c6fb3647b9c2b977be902dfe9237b34.png",
+        "latex-2ad556cbd660b4aa904156fa343a14ec78044e4e.png",
         "latex-2b4935094823ccd24b714364431f3760121e1f37.png",
+        "latex-3115b8f144eda617ce541c63127c641b4ea19228.png",
         "latex-410914db51eef9d55f9f4eedb098c4cfaf22d132.png",
+        "latex-530d3b6aa234dc8ed25978c8ed563a56eb83804f.png",
+        "latex-585172a8ca1c8c749dd0fe892532b5aa6cc4be99.png",
+        "latex-58dadb256af698182d303296df799166d05b9973.png",
+        "latex-597829cccd6484e237223c4a112ad4d6ac929085.png",
+        "latex-5e50b453340da74fac515ac65e1895091e8e7180.png",
+        "latex-601a7806cbfad68196c43a4665871f8c3186802e.png",
+        "latex-71635e52fe79ae22e8c6f19e932d04178f349e04.png",
+        "latex-7634baca9652600716afb6a1c64353928c4f7b90.png",
+        "latex-8e08507f538f3c1bff2373118be8e1faf0d3d627.png",
         "latex-9866e3a998d628ba0941eb4fea0666ac391d149a.png",
+        "latex-a79f21c408f13f319fcfde1804c0c3cbea1c7c8c.png",
         "latex-ac4fc00944fbe646818171afdc933f5a6fddb278.png",
         "latex-ad2bac652ed768f65b0ded92233da4a7d7da7fcd.png",
         "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png",
+        "latex-d480441ef5052d289c8769132461e904f6b6ed31.png",
         "latex-dc4c6ca43eec94b1634459e34c2c61f1f2a40966.png",
-        "latex-fdd71e396fdbde24b2300ba85bd4da6f8f070251.png"
+        "latex-e9a567c6ee5eecb9a3fa1ffb468eec021e5a6d17.png",
+        "latex-eaf4418fbe935c15a606516d8f55dc380cd8e822.png",
+        "latex-f5087db83c6751f036701637dbaf6f0af762647d.png",
+        "latex-fdd71e396fdbde24b2300ba85bd4da6f8f070251.png",
+        "paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg"
     ],
     "name": "Teoria da computação",
     "note_models": [
@@ -105,9 +123,7 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [
-                "automatos"
-            ],
+            "tags": [],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
@@ -241,6 +257,234 @@
             "tags": [
                 "automatos"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pense em um automato finito que não reconheça nenhuma palavra. Considere o alfabeto&nbsp;[$]{}[/$]",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Cy5Do1r6P?",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quais as diferenças entre&nbsp; os automatos finitos não deterministicos (AFND) e autômatos finitos determinísticos (AFD)? Não utilize notação matemática.&nbsp;",
+                "AFD possuem somente uma aresta para cada simbolo do alfabeto. Enquanto AFND, não precisa ter uma aresta para cada simbolo do alfabeto. AFND pode term zero, uma ou varias arestas para o mesmo simbolo no alfabeto.<div><br></div><div>AFND podem ter arestas de transições com os simbolos do alfabeto ou&nbsp; com [$]\\epsilon[/$]. Quando uma aresta/transição com [$]\\epsilon[/$] é encontrada, a transição de estado é feita sem consumir um símbolo da entrada.&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "vTgX*`mFH(",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Descreva do que os autômantos finitos (AF) são compostos. Não utilize notações matemáticas",
+                "Os autômatos finitios(AF) são compostos por um conjunto de estados, um alfabeto, um estado inicial existente no conjunto de estados, um subconjunto dos estados finais e regras de movimentação entre os estados.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "LAKC,Q/imA",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um modelo computacional?",
+                "É um modulo ciêntifico de um computador ideal. Como um modelo ciêntifico, pode ser acurado em algumas caracteristicas e não em outros. Existem diferentes modelos, cara um focado em caracteristicas diferentes.&nbsp;<div><br></div><div>Fonte: Sepser, cap. 1</div>"
+            ],
+            "flags": 0,
+            "guid": "tE7-%WX0A[",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cite exemplos de modelos computacionais",
+                "Autômato finito ou máquina de estado finita."
+            ],
+            "flags": 0,
+            "guid": "Cq@mdQ,f8<",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma diagrama de estado?",
+                "O diagrama de estado é uma representação gráfica de um autômato. Exemplo:<div><br><div><img src=\"paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg\"><br></div><div>* Cada circulo no digrama, é uma estado.&nbsp;</div></div><div>* O estado com a seta \"vindo de lugar nenhum outro estado\" é o estado inicial</div><div>* Os estados com o círculo interno, são os estado finais.&nbsp;</div><div>*As arestas/setas entre os estados, são as regras de movimentação entre os estados. Sendo que o label em cada uma delas, mostra o simbolo de entrade que deve ser lido para que se possa sair de um estado e ir para o outro seguindo a orientação da aresta. Os valores permitidos nas labels são apenas os valores existentes no alfabeto. Por tanto, o exemplo possui um alfabeto {0, 1}.</div>"
+            ],
+            "flags": 0,
+            "guid": "EVojQ&QRjF",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Em um autômato finito, podemos ter um estado que não tenha arestas de saída para alguns símbolos dos alfabeto?",
+                "Não, todo estado deve ter uma aresta para cada símbolo do do alfabeto. Caso contrário, a definicação de [$]\\delta : Q X \\Sigma \\rightarrow Q [/$] não seria verdadeira. Já que o produto cartesiado é uma lista ordenada de todos os estado com todos os símbolso do alfabeto.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "FB&*B_`1ha",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quando uma linguagem regular é considerada um linguagem regular?",
+                "Quando a linguagem (A) possuir um autômato finito(M) que a reconheça.<div><br></div><div>[$]M reconheçe linguagem A se A = { w | M aceita w }[/$]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "l+WlOWn;e&",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que são operações regulares?",
+                "São operações que podem ser feitas com linguagens. São elas: <b>união (union)</b>, <b>concatenação(concatenation)</b> e <b>estrela(start, A*)</b>"
+            ],
+            "flags": 0,
+            "guid": "hw]qP2`aLP",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dada as linguagens A = {preto, branco} e B = {cachorro, gato}, qual é a união dessas duas linguagens?&nbsp;<div><br></div><div>[$]A \\cup B = ?[/$]<br></div>",
+                "A uniao de duas linguagens é a união dos conjuntos de suas strings. Em outras palavras, o conjunto resultante da união contem todas as string da linguagem A e da linguagem B.<div><br></div><div>[$]A \\cup B = \\{preto, branco, cachorro, gato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\cup B = \\{x | x \\in A\\text{ or }x \\in B\\}[/$]<br></div></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "r4;jT@-HsL",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dada as linguagens A = {preto, branco} e B = {cachorro, gato}, qual é a concatenação dessas duas linguagens?&nbsp;<div><br></div><div>[$]A \\circ&nbsp;B = ?[/$]</div>",
+                "A concatenaçao de duas linguagens é a concacetanação entre dos conjuntos de suas strings. Em outras palavras, cada palavra da linaguem A é concatenada com todas as strings da linguagem B.<div><br></div><div>[$]A \\circ&nbsp;B = \\{pretocachorro, pretogato, brancocachorro, brancogato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\circ B = \\{xy | x \\in A\\text{ and }y \\in B\\}[/$]<br></div></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "h.0xrOkr%P",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dada as linguagem B = {cachorro, gato}, qual é o resultado da operação estrela sobre ela?<div><br></div><div>[$]B^* = ?[/$]</div>",
+                "O resultado da operação estrela sobre uma linguagem é um conjunto de strings onde cada elemento é um concatenação de uma ou mais strings existente na linguagem.&nbsp;<div><br></div><div>[$]B^* = \\{cachorrocachorro, cachorrogato, cachorrogatocachorro, cachorrogatogato, ...\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]B^* = \\{x_1x_2...x_k | k \\geqslant 0 \\text{ e&nbsp; cada } x_k \\in A \\}[/$]<br></div></div>"
+            ],
+            "flags": 0,
+            "guid": "y-{[7C40k&",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma operação fechada?",
+                "Uma operação fechado é quando realizamos uma operação em um grupo de elementos e o resultado dessa operação é um elemento do grupo. Exemplo:<div><br></div><div>Considere [$]N = {1,2,3,4,5,6,7,...}[/$] os números naturais. Quando multiplicamos [$]2 x 3[/$] obtemos [$]6[/$]. Que também faz parte dos números naturais.&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "fv1wM/v9*$",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A operação de união é fechada sobre linguagens regulares?",
+                "Sim. Isso significa se as linguagens A e B são regulares, [$]A \\cup B[/$] também."
+            ],
+            "flags": 0,
+            "guid": "d0ly9Z[Q{`",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A operação de concatenação é fechada sobre linguagens regulares?",
+                "Sim. Isso significa se as linguagens A e B são regulares, [$]A \\circ B[/$] também."
+            ],
+            "flags": 0,
+            "guid": "G}Pc+y5ZnA",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Todo autômato finito deterministico é também um autômato finiti não deterministico?",
+                "Sim.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "jJGqAS1:g",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um alfabeto unário?",
+                "É um alfabeto com apenas um símbolo, {0}"
+            ],
+            "flags": 0,
+            "guid": "KX9zWurC=;",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Todo autômato finito não determinístico tem um autômato finito determinístico equivalente?",
+                "Sim. Isso é um teorema. Todo autômato finito determinístico tem um autômato finito determinístico equivalente.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "sUdIBvMSp!",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um <b>super conjunto</b> (<b>power set</b>) de [$]Q[/$] ([$]P(Q)[/$])?",
+                "O <b>super conjunto</b> (<b>power set</b>)&nbsp;é uma conjunto de todos os subconjuntos de um conjunto [$]Q[/$]"
+            ],
+            "flags": 0,
+            "guid": "EWTb?t;HAB",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
         }
     ]
 }
