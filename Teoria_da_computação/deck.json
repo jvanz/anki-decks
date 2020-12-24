@@ -69,11 +69,14 @@
         "latex-601a7806cbfad68196c43a4665871f8c3186802e.png",
         "latex-71635e52fe79ae22e8c6f19e932d04178f349e04.png",
         "latex-7634baca9652600716afb6a1c64353928c4f7b90.png",
+        "latex-7c60cfa7b36c3364324e36af3ec5b0b56741ce40.png",
         "latex-8e08507f538f3c1bff2373118be8e1faf0d3d627.png",
         "latex-9866e3a998d628ba0941eb4fea0666ac391d149a.png",
         "latex-a79f21c408f13f319fcfde1804c0c3cbea1c7c8c.png",
         "latex-ac4fc00944fbe646818171afdc933f5a6fddb278.png",
         "latex-ad2bac652ed768f65b0ded92233da4a7d7da7fcd.png",
+        "latex-b4045c2faeb53890360188fe1c052860b9d32256.png",
+        "latex-c7b86796be119b681e7ab7946e36b5cf0987cefd.png",
         "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png",
         "latex-d480441ef5052d289c8769132461e904f6b6ed31.png",
         "latex-dc4c6ca43eec94b1634459e34c2c61f1f2a40966.png",
@@ -299,7 +302,7 @@
             "data": "",
             "fields": [
                 "O que é um modelo computacional?",
-                "É um modulo ciêntifico de um computador ideal. Como um modelo ciêntifico, pode ser acurado em algumas caracteristicas e não em outros. Existem diferentes modelos, cara um focado em caracteristicas diferentes.&nbsp;<div><br></div><div>Fonte: Sepser, cap. 1</div>"
+                "É um modulo ciêntifico de um computador ideal. Como um modelo ciêntifico, pode ser acurado em algumas caracteristicas e não em outras. Existem diferentes modelos, cada um focado em características diferentes.&nbsp;<div><br></div><div>Fonte: Sepser, cap. 1</div>"
             ],
             "flags": 0,
             "guid": "tE7-%WX0A[",
@@ -323,7 +326,7 @@
             "data": "",
             "fields": [
                 "O que é uma diagrama de estado?",
-                "O diagrama de estado é uma representação gráfica de um autômato. Exemplo:<div><br><div><img src=\"paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg\"><br></div><div>* Cada circulo no digrama, é uma estado.&nbsp;</div></div><div>* O estado com a seta \"vindo de lugar nenhum outro estado\" é o estado inicial</div><div>* Os estados com o círculo interno, são os estado finais.&nbsp;</div><div>*As arestas/setas entre os estados, são as regras de movimentação entre os estados. Sendo que o label em cada uma delas, mostra o simbolo de entrade que deve ser lido para que se possa sair de um estado e ir para o outro seguindo a orientação da aresta. Os valores permitidos nas labels são apenas os valores existentes no alfabeto. Por tanto, o exemplo possui um alfabeto {0, 1}.</div>"
+                "O diagrama de estado é uma representação gráfica de um autômato. Exemplo:<div><br><div><img src=\"paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg\"><br></div><div>* Cada círculo no digrama, é uma estado.&nbsp;</div></div><div>* O estado com a seta \"vindo de lugar nenhum outro estado\" é o estado inicial</div><div>* Os estados com o círculo interno, são os estado finais.&nbsp;</div><div>*As arestas/setas entre os estados, são as regras de movimentação entre os estados. Sendo que o label em cada uma delas, mostra o símbolo de entrada que deve ser lido para que se possa sair de um estado e ir para o outro seguindo a orientação da aresta. Os valores permitidos nas labels são apenas os valores existentes no alfabeto. Por tanto, o exemplo possui um alfabeto {0, 1}.</div>"
             ],
             "flags": 0,
             "guid": "EVojQ&QRjF",
@@ -334,8 +337,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Em um autômato finito, podemos ter um estado que não tenha arestas de saída para alguns símbolos dos alfabeto?",
-                "Não, todo estado deve ter uma aresta para cada símbolo do do alfabeto. Caso contrário, a definicação de [$]\\delta : Q X \\Sigma \\rightarrow Q [/$] não seria verdadeira. Já que o produto cartesiado é uma lista ordenada de todos os estado com todos os símbolso do alfabeto.&nbsp;"
+                "Em um autômato finito determinístico, podemos ter um estado que não tenha arestas de saída para alguns símbolos dos alfabeto?",
+                "Não, todo estado deve ter uma aresta para cada símbolo do do alfabeto. Caso contrário, a definicação de [$]\\delta : Q X \\Sigma \\rightarrow Q [/$] não seria verdadeira. Já que o produto cartesiado é uma lista ordenada de todos os estado com todos os símbolos do alfabeto.&nbsp;"
             ],
             "flags": 0,
             "guid": "FB&*B_`1ha",
@@ -346,7 +349,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Quando uma linguagem regular é considerada um linguagem regular?",
+                "Quando uma linguagem é considerada um linguagem regular?",
                 "Quando a linguagem (A) possuir um autômato finito(M) que a reconheça.<div><br></div><div>[$]M reconheçe linguagem A se A = { w | M aceita w }[/$]<br></div>"
             ],
             "flags": 0,
@@ -371,7 +374,7 @@
             "data": "",
             "fields": [
                 "Dada as linguagens A = {preto, branco} e B = {cachorro, gato}, qual é a união dessas duas linguagens?&nbsp;<div><br></div><div>[$]A \\cup B = ?[/$]<br></div>",
-                "A uniao de duas linguagens é a união dos conjuntos de suas strings. Em outras palavras, o conjunto resultante da união contem todas as string da linguagem A e da linguagem B.<div><br></div><div>[$]A \\cup B = \\{preto, branco, cachorro, gato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\cup B = \\{x | x \\in A\\text{ or }x \\in B\\}[/$]<br></div></div><div><br></div>"
+                "A união de duas linguagens é a união dos conjuntos de suas strings. Em outras palavras, o conjunto resultante da união contem todas as string da linguagem A e da linguagem B.<div><br></div><div>[$]A \\cup B = \\{preto, branco, cachorro, gato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\cup B = \\{x | x \\in A\\text{ or }x \\in B\\}[/$]<br></div></div><div><br></div>"
             ],
             "flags": 0,
             "guid": "r4;jT@-HsL",
@@ -383,7 +386,7 @@
             "data": "",
             "fields": [
                 "Dada as linguagens A = {preto, branco} e B = {cachorro, gato}, qual é a concatenação dessas duas linguagens?&nbsp;<div><br></div><div>[$]A \\circ&nbsp;B = ?[/$]</div>",
-                "A concatenaçao de duas linguagens é a concacetanação entre dos conjuntos de suas strings. Em outras palavras, cada palavra da linaguem A é concatenada com todas as strings da linguagem B.<div><br></div><div>[$]A \\circ&nbsp;B = \\{pretocachorro, pretogato, brancocachorro, brancogato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\circ B = \\{xy | x \\in A\\text{ and }y \\in B\\}[/$]<br></div></div><div><br></div>"
+                "A concatenação de duas linguagens é a concacetanação entre dos conjuntos de suas strings. Em outras palavras, cada palavra da linaguem A é concatenada com todas as strings da linguagem B.<div><br></div><div>[$]A \\circ&nbsp;B = \\{pretocachorro, pretogato, brancocachorro, brancogato\\}[/$]<br></div><div><br></div><div>Utilizando uma definição mais formal:</div><div><br></div><div><div>[$]A \\circ B = \\{xy | x \\in A\\text{ and }y \\in B\\}[/$]<br></div></div><div><br></div>"
             ],
             "flags": 0,
             "guid": "h.0xrOkr%P",
@@ -442,8 +445,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Todo autômato finito deterministico é também um autômato finiti não deterministico?",
-                "Sim.&nbsp;"
+                "Todo autômato finito determinístico é também um autômato finito não determinístico?",
+                "<br><br>Sim.&nbsp;"
             ],
             "flags": 0,
             "guid": "jJGqAS1:g",
@@ -483,6 +486,98 @@
             ],
             "flags": 0,
             "guid": "EWTb?t;HAB",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Se uma linguagem L é aceita por um autômanto finito não determinístico, então L é aceita por um autômato finito determinístico. Verdadeiro ou falso?",
+                "Verdadeiro"
+            ],
+            "flags": 0,
+            "guid": "v3Rw:tynaL",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Se uma linguagem L é aceita por um autômato finito determinístico , então L é aceita por um autômato finito não determinístico. Verdadeiro ou falso?",
+                "Verdadeiro"
+            ],
+            "flags": 0,
+            "guid": "o~Q#qanFN/",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uma linguagem L é aceita por um autômato finito não determinístico se e&nbsp;somente se L é aceita por um autômato finito determinístico. Verdadeiro ou falso?",
+                "Verdadeiro"
+            ],
+            "flags": 0,
+            "guid": "P0IP*(ZWa*",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uma linguagem L é regular se e somente se existe um autômato finito não determinístico que a reconhece. Verdadeiro ou falso?",
+                "Verdadeiro"
+            ],
+            "flags": 0,
+            "guid": "9zl1#6B2I",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Na definição matemática de Autômatos Finitos não Determinísticos(AFND),&nbsp;<div>[$$] AFD= (Q, \\Sigma, \\delta,q0, F)[/$$]<br></div><div>Defina&nbsp; cada elemento da tupla.</div>",
+                "[$]Q[/$] é o conjunto finito de estados<div>--------------------------------------------------------------<br>[$]\\Sigma[/$] é o conjunto finito de símbolos (alfabeto)</div><div>--------------------------------------------------------------<br><div>[$]\\delta : Q X (\\Sigma&nbsp;&nbsp;\\cup \\epsilon)&nbsp; \\rightarrow P(Q) [/$] é uma função de transição, onde [$]P(Q)[/$] é o conjunto de partes de [$]Q[/$]</div><div>&nbsp;[$]\\delta&nbsp; (\\text{estado atual, símbolo lido ou }\\epsilon)&nbsp; \\rightarrow \\text{conjunto de novos estados} [/$]&nbsp; &nbsp;&nbsp;</div><div>--------------------------------------------------------------<br></div><div><div>[$]q0 \\in Q[/$] é o estado inicial</div><div>--------------------------------------------------------------<br></div><div>[$]F \\subseteq Q[/$] é o conjunto de estados finais</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "m+9]3I8+a^",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um [$]\\epsilon-AFND[/$] ?",
+                "São autômanto finitos não deterministicos que possuem transições que não consomem símbolos de entrada. [$]\\epsilon[/$] é o símbolo utilizado para identificar tais transições.<div><br></div><div>Exemplo:</div><div><br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "NeZ>N#n$8]",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é teoria da computação?",
+                "Eh blablabbloblo"
+            ],
+            "flags": 0,
+            "guid": "IZ5?WzPZ%%",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": []
         }
