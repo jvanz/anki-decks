@@ -56,35 +56,62 @@
     "extendRev": 50,
     "media_files": [
         "latex-0104772376bad05b599a33403a2c1c8143734c9c.png",
+        "latex-0778d6b3180f5c8ffa8e7ee57888c0dd9cda8927.png",
+        "latex-0ad4545854d55fe376aa6eb00ad3139a57471a96.png",
+        "latex-0ca0a836c80a335b203437e3752ee3b9a4247b41.png",
+        "latex-0fe2581bdc014e711977bd260e2a762c1fd13dbe.png",
+        "latex-12d58aa29201da09d8e620f8698e3a37547f6b4a.png",
         "latex-12de45c81c6fb3647b9c2b977be902dfe9237b34.png",
+        "latex-2554b6496c3b678897e9b060ef00aa9f0a7d7ece.png",
         "latex-2ad556cbd660b4aa904156fa343a14ec78044e4e.png",
         "latex-2b4935094823ccd24b714364431f3760121e1f37.png",
+        "latex-2d6ce82aea1161b35e3ad16e3971ee5ca07e24cf.png",
+        "latex-2dbe5451b2b17bcfa6d4bd5efcd297c235e7791b.png",
         "latex-3115b8f144eda617ce541c63127c641b4ea19228.png",
         "latex-410914db51eef9d55f9f4eedb098c4cfaf22d132.png",
+        "latex-4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png",
+        "latex-4bc3ee3b6c1c688bf9e191e42cf69fe432125a51.png",
         "latex-530d3b6aa234dc8ed25978c8ed563a56eb83804f.png",
         "latex-585172a8ca1c8c749dd0fe892532b5aa6cc4be99.png",
         "latex-58dadb256af698182d303296df799166d05b9973.png",
         "latex-597829cccd6484e237223c4a112ad4d6ac929085.png",
         "latex-5e50b453340da74fac515ac65e1895091e8e7180.png",
         "latex-601a7806cbfad68196c43a4665871f8c3186802e.png",
+        "latex-65016fa738ab313dd168796b3909eada63dadd10.png",
         "latex-71635e52fe79ae22e8c6f19e932d04178f349e04.png",
         "latex-7634baca9652600716afb6a1c64353928c4f7b90.png",
         "latex-7c60cfa7b36c3364324e36af3ec5b0b56741ce40.png",
+        "latex-84241c448cbf497968ba86136beecf766431a3ff.png",
         "latex-8e08507f538f3c1bff2373118be8e1faf0d3d627.png",
         "latex-9866e3a998d628ba0941eb4fea0666ac391d149a.png",
+        "latex-9f18cafdb53193540db4dbcc662131ab2cb18467.png",
         "latex-a79f21c408f13f319fcfde1804c0c3cbea1c7c8c.png",
         "latex-ac4fc00944fbe646818171afdc933f5a6fddb278.png",
         "latex-ad2bac652ed768f65b0ded92233da4a7d7da7fcd.png",
+        "latex-b3fb3c47f05a633f5605370d7376a0a83516ec22.png",
         "latex-b4045c2faeb53890360188fe1c052860b9d32256.png",
+        "latex-bde7947fc848f9ece2e4772856937e7374d5646d.png",
+        "latex-bf7f9673acb26092a477afe9a37b7fdca384102a.png",
         "latex-c7b86796be119b681e7ab7946e36b5cf0987cefd.png",
         "latex-c8f77e3035db5fe9a4975967750ac1a6454bda8c.png",
-        "latex-d480441ef5052d289c8769132461e904f6b6ed31.png",
+        "latex-cf3ea450d69a23ee22553f52a49411796e6b9985.png",
+        "latex-d18b246e0740a4c576da7cc58af9169331c0e06b.png",
+        "latex-d631e36ed0375c9bcda42d0f5760fc50bc78f5d2.png",
         "latex-dc4c6ca43eec94b1634459e34c2c61f1f2a40966.png",
+        "latex-e909101dac0515c1b614ba95d624c87eab182fae.png",
         "latex-e9a567c6ee5eecb9a3fa1ffb468eec021e5a6d17.png",
         "latex-eaf4418fbe935c15a606516d8f55dc380cd8e822.png",
+        "latex-edea21e2bdd3f59b402ebbd05bad0e9aab26dd9f.png",
         "latex-f5087db83c6751f036701637dbaf6f0af762647d.png",
         "latex-fdd71e396fdbde24b2300ba85bd4da6f8f070251.png",
-        "paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg"
+        "paste-07512b1b256c96c1a7e5fda4daa177633adb685b.jpg",
+        "paste-11899e7e65b0b2d15a33789502c2ee603a7f6054.jpg",
+        "paste-1e730b36d2530c0b277ac612c2a73baddab59598.jpg",
+        "paste-4f3b25dff23c533d60551e3fcb49347433804c07.jpg",
+        "paste-519637dfe976c58c57364ebc198be5d3ee271095.jpg",
+        "paste-c7562ca9805c47db70ba6daacf74787531c84868.jpg",
+        "paste-cdafb54cbaca19c1059825eb34c5868ccd514329.jpg",
+        "paste-ddcfd2697fe4ebab782fe4a75e3dace73db26652.jpg"
     ],
     "name": "Teoria da computação",
     "note_models": [
@@ -126,7 +153,9 @@
                 ]
             ],
             "sortf": 0,
-            "tags": [],
+            "tags": [
+                "gramaticas"
+            ],
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
@@ -278,7 +307,7 @@
             "data": "",
             "fields": [
                 "Quais as diferenças entre&nbsp; os automatos finitos não deterministicos (AFND) e autômatos finitos determinísticos (AFD)? Não utilize notação matemática.&nbsp;",
-                "AFD possuem somente uma aresta para cada simbolo do alfabeto. Enquanto AFND, não precisa ter uma aresta para cada simbolo do alfabeto. AFND pode term zero, uma ou varias arestas para o mesmo simbolo no alfabeto.<div><br></div><div>AFND podem ter arestas de transições com os simbolos do alfabeto ou&nbsp; com [$]\\epsilon[/$]. Quando uma aresta/transição com [$]\\epsilon[/$] é encontrada, a transição de estado é feita sem consumir um símbolo da entrada.&nbsp;</div>"
+                "AFD possuem somente uma aresta para cada simbolo do alfabeto. Enquanto AFND, não precisa ter uma aresta para cada simbolo do alfabeto. AFND pode ter zero, uma ou varias arestas para o mesmo simbolo no alfabeto.<div><br></div><div>AFND podem ter arestas de transições com os simbolos do alfabeto ou&nbsp; com [$]\\epsilon[/$]. Quando uma aresta/transição com [$]\\epsilon[/$] é encontrada, a transição de estado é feita sem consumir um símbolo da entrada.&nbsp;</div>"
             ],
             "flags": 0,
             "guid": "vTgX*`mFH(",
@@ -302,7 +331,7 @@
             "data": "",
             "fields": [
                 "O que é um modelo computacional?",
-                "É um modulo ciêntifico de um computador ideal. Como um modelo ciêntifico, pode ser acurado em algumas caracteristicas e não em outras. Existem diferentes modelos, cada um focado em características diferentes.&nbsp;<div><br></div><div>Fonte: Sepser, cap. 1</div>"
+                "É um modelo ciêntifico de um computador ideal. Como um modelo ciêntifico, pode ser acurado em algumas caracteristicas e não em outras. Existem diferentes modelos, cada um focado em características diferentes.&nbsp;<div><br></div><div>Fonte: Sepser, cap. 1</div>"
             ],
             "flags": 0,
             "guid": "tE7-%WX0A[",
@@ -350,7 +379,7 @@
             "data": "",
             "fields": [
                 "Quando uma linguagem é considerada um linguagem regular?",
-                "Quando a linguagem (A) possuir um autômato finito(M) que a reconheça.<div><br></div><div>[$]M reconheçe linguagem A se A = { w | M aceita w }[/$]<br></div>"
+                "Quando a linguagem (A) possuir um autômato finito(M) que a reconheça.<div><br></div>\\(M\\ \\text{reconheçe linguagem}\\ A\\ se\\ A = { w | M\\ aceita\\ w }\\)<br>"
             ],
             "flags": 0,
             "guid": "l+WlOWn;e&",
@@ -410,7 +439,7 @@
             "data": "",
             "fields": [
                 "O que é uma operação fechada?",
-                "Uma operação fechado é quando realizamos uma operação em um grupo de elementos e o resultado dessa operação é um elemento do grupo. Exemplo:<div><br></div><div>Considere [$]N = {1,2,3,4,5,6,7,...}[/$] os números naturais. Quando multiplicamos [$]2 x 3[/$] obtemos [$]6[/$]. Que também faz parte dos números naturais.&nbsp;</div>"
+                "Uma operação fechado é quando realizamos uma operação em um grupo de elementos e o resultado dessa operação é um elemento do grupo. Exemplo:<div><br></div><div>Considere [$]N = {1,2,3,4,5,6,7,...}[/$] os números naturais. Quando multiplicamos \\( 2 * 3  \\) obtemos [$]6[/$]. Que também faz parte dos números naturais.&nbsp;</div>"
             ],
             "flags": 0,
             "guid": "fv1wM/v9*$",
@@ -434,7 +463,7 @@
             "data": "",
             "fields": [
                 "A operação de concatenação é fechada sobre linguagens regulares?",
-                "Sim. Isso significa se as linguagens A e B são regulares, [$]A \\circ B[/$] também."
+                "Sim. Isso significa se as linguagens A e B são regulares, [$]A \\circ B[/$] (concatenação das duas linguagens) também.<br> é."
             ],
             "flags": 0,
             "guid": "G}Pc+y5ZnA",
@@ -493,13 +522,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Se uma linguagem L é aceita por um autômanto finito não determinístico, então L é aceita por um autômato finito determinístico. Verdadeiro ou falso?",
-                "Verdadeiro"
+                "Complete o teorema: Se uma linguagem L é aceita por um autômanto finito não determinístico, então L é aceita por um ___.&nbsp;",
+                "Se uma linguagem L é aceita por um autômanto finito não determinístico, então L é aceita por um autômato finito determinístico."
             ],
             "flags": 0,
             "guid": "v3Rw:tynaL",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": [
+                "afd",
+                "afnd",
                 "teorema"
             ]
         },
@@ -507,13 +538,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Se uma linguagem L é aceita por um autômato finito determinístico , então L é aceita por um autômato finito não determinístico. Verdadeiro ou falso?",
-                "Verdadeiro"
+                "Complete o teorema: se uma linguagem L é aceita por um autômato finito determinístico , então L é aceita por um ___ .",
+                "Se uma linguagem L é aceita por um autômato finito determinístico , então L é aceita por um autômato finito não determinístico.&nbsp;"
             ],
             "flags": 0,
             "guid": "o~Q#qanFN/",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": [
+                "afd",
+                "afnd",
                 "teorema"
             ]
         },
@@ -521,13 +554,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Uma linguagem L é aceita por um autômato finito não determinístico se e&nbsp;somente se L é aceita por um autômato finito determinístico. Verdadeiro ou falso?",
-                "Verdadeiro"
+                "Complete o teorema: uma linguagem L é aceita por um ____ se e&nbsp;somente se L é aceita por um ___.",
+                "Uma linguagem L é aceita por um autômato finito não determinístico se e&nbsp;somente se L é aceita por um autômato finito determinístico."
             ],
             "flags": 0,
             "guid": "P0IP*(ZWa*",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": [
+                "afd",
+                "afnd",
                 "teorema"
             ]
         },
@@ -535,13 +570,15 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Uma linguagem L é regular se e somente se existe um autômato finito não determinístico que a reconhece. Verdadeiro ou falso?",
-                "Verdadeiro"
+                "Complete o teorema: uma linguagem L é regular se e somente se existe um ____ que a reconhece.&nbsp;",
+                "Uma linguagem L é regular se e somente se existe um autômato finito não determinístico (AFND) que a reconhece."
             ],
             "flags": 0,
             "guid": "9zl1#6B2I",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": [
+                "afd",
+                "afnd",
                 "teorema"
             ]
         },
@@ -580,6 +617,502 @@
             "guid": "IZ5?WzPZ%%",
             "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
             "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Qual é a definição de [$]\\epsilon-Fecho(q)[/$] ou \\(E(q)\\)?",
+                "É o conjunto de todos os estados que podem ser alcançados a partir de um estado \\(q\\) com zero ou mais transições&nbsp;[$]\\epsilon[/$] (transições vazias)"
+            ],
+            "flags": 0,
+            "guid": "e6&VRY+[v=",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "afnd"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Qual é a definição de&nbsp;[$]\\epsilon-Fecho(R) [/$] ou [$]E(R)&nbsp;[/$]?",
+                "É o conjunto de todos os estado que podem ser alcançados a partir de qualquer estado de R com zero ou mais transições&nbsp;[$]\\epsilon[/$] (transições vazias)"
+            ],
+            "flags": 0,
+            "guid": "I$!ws`eJEP",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "afnd"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema: Uma linguagem L é aceita por um __-AFND se e somente se L é aceita por um __",
+                "Uma linguagem L é aceita por um [$]\\epsilon-AFND[/$] se e somente se L é aceita por um AFD"
+            ],
+            "flags": 0,
+            "guid": "z,Mq}Fwd5l",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "afnd",
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema: uma linguagem L é regular se e somente se existe um __-AFND que a reconhece",
+                "Uma linguagem L é regular se e somente se existe um [$]\\epsilon-AFND[/$] que a reconhece"
+            ],
+            "flags": 0,
+            "guid": "ENzg`F{%g;",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "afnd",
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema: se uma linguagem L é aceita por um autômato finito deterministico (AFD), então L é aceita por um __-AFND",
+                "Se uma linguagem&nbsp;L é aceita por um autômato finito deterministico (AFD), então L é aceita por um [$]<span style=\"font-size: 16.6667px;\">\\epsilon</span>-AFND[/$]"
+            ],
+            "flags": 0,
+            "guid": "iAv]bwFh.N",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema: se uma linguagem L é aceita por um __-AFND, então L é aceita por uma AFD",
+                "Se uma linguagem L é aceita por um [$]\\epsilon-AFND[/$], então L é aceita por uma AFD"
+            ],
+            "flags": 0,
+            "guid": "Od<=OA/L*8",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In words, the pumping lemma states that by replacing the portion y in s<br>by zero or more copies of it, the resulting string is still in the language A",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jbaJ#6,cca",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "TODO"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é o tamanho de bombeamento (<i>pumping length</i>) ?",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tbSn]]Jpvn",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "TODO"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é a teoria da complexidade?",
+                "Classifica os problemas em fáceis e difíceis"
+            ],
+            "flags": 0,
+            "guid": "Kf33KZn6hV",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é a teoria da computabilidade?",
+                "Classifica os problemas em solucionáveis ou não-solucionáveis"
+            ],
+            "flags": 0,
+            "guid": "E1oQFX([j",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é a teoria de autômatos?",
+                "Definições e propriedades de modelos matemáticos de computação"
+            ],
+            "flags": 0,
+            "guid": "PAEeA1fip?",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "No contexto de conjuntos. Repetições dos elementos de um conjunto importam?",
+                "Não, repetições de elementos de um conjunto não importam.&nbsp;<div><br></div><div>[latex] {1,2,3} = {1,2,2,3}[/latex]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "kAR;qTRiI1",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que são multiconjunto?",
+                "Um multiconjunto é a generalização de um conjunto. Em outras palavras, é como um conjunto, uma lista não ordenada de elementos. Mas os elementos podem aparecer mais de uma vez. Exemplos de multiconjuntos:<div><br></div><div>[latex]{1,2,3} = {3,1,2} = {1,1,2,2,3,3} = {1,2,3,1,2,3,1,1,1,1}[/latex]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "o%Oho<<1>]",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Considere o seguinte diagrama de Venn:<div><br><div><img src=\"paste-ddcfd2697fe4ebab782fe4a75e3dace73db26652.jpg\"><br></div><div><br></div><div>Qual operação está representada na area marcada em azul?</div><div><br></div></div>",
+                "A operação representada é a <b>intersecção.</b>&nbsp;Ela mostra todos os elementos que estão em ambos os conjuntos.<div><br></div><div>[$]&nbsp;A \\cap B = {x : x \\in A\\ e\\ x \\in B}[/$]<br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Ge,ms[0qUw",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Considere o seguinte diagrama de Venn:<div><br></div><div><img src=\"paste-519637dfe976c58c57364ebc198be5d3ee271095.jpg\"><br><div><br></div><div><br></div><div>Qual operação está representada na area marcada em azul?</div></div>",
+                "A operação representada é a&nbsp;<b>diferença entre A e B.</b>&nbsp;Ela mostra todos os elementos que estão em A mas <b>não</b>&nbsp;estão em B<div><br></div><div>[$]&nbsp;A - B = {x : x \\in A\\ e\\ x \\notin B}[/$]<br></div><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "yFNW$R7S]]",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma sequência?",
+                "É uma lista de objetos em alguma ordem, sendo que pode ser infinita e repetições não importam"
+            ],
+            "flags": 0,
+            "guid": "lspDcBiit^",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma tupla?&nbsp;",
+                "É uma sequência finita.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "K|g9PI$sYE",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Como é chamada uma tupla de dois elementos, 2-tupla?",
+                "É chamada de par ordenado"
+            ],
+            "flags": 0,
+            "guid": "f)${oM4A^<",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é um <b>conjunto de partes</b>&nbsp;ou <b>power set?</b>",
+                "É o conjunto de todos os subconjuntos de um conjunto, incluindo&nbsp;[$]\\emptyset[/$] (conjunto vazio). Exemplo:<div><br></div><div>Seja A o conjunto [$] \\{ 1,2,3 \\} [/$], então o conjunto de partes de A é [$]P(A) = \\{\\emptyset, \\{1\\}, \\{2\\}, \\{3\\}, \\{1,2\\}, \\{1,3\\}, \\{2,3\\}, \\{1,2,3\\}\\}[/$]</div>"
+            ],
+            "flags": 0,
+            "guid": "P>@Kv2paIt",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é o <b>produto cartesiano&nbsp;</b>&nbsp;ou&nbsp;<b>&nbsp;produto cruzado</b>&nbsp;de dois conjuntos?",
+                "O produto cartesiano de dois conjuntos, A e B, representado por \\(A \\times B\\), é o conjunto de todos os pares ordenado \\((a,b)\\), tal que \\(a \\in A\\) e \\(b \\in B\\)"
+            ],
+            "flags": 0,
+            "guid": "JT8/cY8zVH",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "math",
+                "set"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função</b>?",
+                "É um objeto que produz uma relação de entrada-saída, onde, para uma mesma entrada sempre ocorre a mesma saída.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "k/28A7)!24",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função injetora</b>?",
+                "É uma função onde todos os elementos do domínio possuem imagens distintas. Em outras palavras, cada elemento do conjunto dominio&nbsp;está associado a apenas com um elemento do conjunto imagem.<div><br><div><img src=\"paste-4f3b25dff23c533d60551e3fcb49347433804c07.jpg\"><br></div></div>"
+            ],
+            "flags": 0,
+            "guid": "p<Y?e+7DZp",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função sobrejetora</b>?",
+                "É uma função onde todos os elementos do conjunto imagem estão associados com um elemento do conjunto dominio.&nbsp;<div><br></div><div><img src=\"paste-1e730b36d2530c0b277ac612c2a73baddab59598.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "eSo|D,amr>",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função bijetora</b>?",
+                "É uma função onde todos os elementos do conjunto do dominio possuem um elemento do conjunto imagem associado. E não existe elementos sobrando no conjunto imagem. Em outroas palavras, a função precisa ser <b>injetora</b> e <b>sobrejetora.</b><div><b><br></b></div><div><img src=\"paste-11899e7e65b0b2d15a33789502c2ee603a7f6054.jpg\"><b><br></b></div>"
+            ],
+            "flags": 0,
+            "guid": "fg}5*6rEZ!",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função unária</b>?",
+                "São funções&nbsp; com um argumento&nbsp;<div><br></div><div><img src=\"paste-cdafb54cbaca19c1059825eb34c5868ccd514329.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "oPwEk0S,Z7",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma <b>função binária</b>?",
+                "É uma função com dois argumentos<div><br></div><div><img src=\"paste-07512b1b256c96c1a7e5fda4daa177633adb685b.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "mrrfc>P81+",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "No contexto de funções, o que é um <b>predicado</b> ou <b>propriedade</b>?",
+                "É uma função onde o conjunto imagem é [$]\\{True, False\\}[/$]. Ou seja, são funções que dizem se algo é verdadeiro ou falso"
+            ],
+            "flags": 0,
+            "guid": "s.%-k&xIZ.",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "No contexto de funções, o que é uma <b>relação</b>?",
+                "É uma <i>propriedade</i>&nbsp;cujo&nbsp; o domínio é um conjunto de k-tuplas [$]A \\times A \\times&nbsp;A \\times&nbsp;... \\times&nbsp;A[/$]&nbsp;<div><br></div><div>[$]R(a_1,a_2,...,a_k) = True[/$]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "z*[ANB[`Wo",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "functions",
+                "math"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Qual a diferença entre linguagens regulares e linguagens não regulares?",
+                "Linguagens regulares não conseguem contar."
+            ],
+            "flags": 0,
+            "guid": "ur=:1mqnX?",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Para que serve o lema do bombeamento?",
+                "Serve para provar que uma linguagem <b>não</b>&nbsp;é regular"
+            ],
+            "flags": 0,
+            "guid": "k/dnTbWm?t",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema:&nbsp; toda linguagem ____ é uma linguagem livre de ____",
+                "Toda linguagem regular é uma linguagem livre de contexto"
+            ],
+            "flags": 0,
+            "guid": "EU?j6n,GV5",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Complete o teorema: qualquer linguagem livre de _____ é gerada por uma&nbsp;_____ livre de contexto na Forma Normal de ______",
+                "Qualquer linguagem livre de contexto é gerada por uma&nbsp;gramática livre de contexto na Forma Normal de Chomsky"
+            ],
+            "flags": 0,
+            "guid": "m#}@gz]z[o",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "teorema"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "O que é uma autômato com pilha (AP)?",
+                "Um autômato com pilha (AP) é um autômato finito (AF) com uma&nbsp;memória auxiliar (uma pilha). Um AP é um reconhecedor de&nbsp;linguagens livres de contexto."
+            ],
+            "flags": 0,
+            "guid": "MI0(+5-*U$",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "No contexto da teoria da computação, o que é uma linguagem?",
+                "É um conjunto de string. Não confindir com linguagens de programação.&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "CY9}DZ,C{]",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "automatos"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Na definição de gramáticas livre de contexto,&nbsp;[$]G = (V, T, S, P)[/$]. O que siginifica cada símbolo?",
+                "[$]V[/$] é um conjunto finito de símbolos não terminais (variáveis)<div>[$]T[/$] é um conjunto finito de símbolos terminais (alfabeto)</div><div>[$]S \\in V[/$] é o símbolo inicial</div><div>[$]P[/$] é um conjunto de regras de produção na forma [$]A \\rightarrow&nbsp;\\alpha[/$], onde [$]A \\in V[/$] e [$]\\alpha \\in (V \\cup T)^*[/$]</div>"
+            ],
+            "flags": 0,
+            "guid": "NRkv*9u/m|",
+            "note_model_uuid": "5b06c278-4009-11eb-9a2c-c8f750d50411",
+            "tags": [
+                "gramaticas"
+            ]
         }
     ]
 }
